@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function HomeSection() {
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-row mb-10">
       <div className="mt-14">
         <h1
           style={{
@@ -31,9 +31,9 @@ export default function HomeSection() {
           sed lacus nec risus finibus <br /> feugiat et fermentum
         </p>
         <div className="mt-12 h-10 w-36 flex">
-          <div style={{ background: "#FF3147"}}>
+          <div style={{ background: "#FF3147" }}>
             <Link href="#">
-              <p className="p-2 text-white">CONTACT US</p>
+              <p className="p-2 text-white ">CONTACT US</p>
             </Link>
           </div>
         </div>
