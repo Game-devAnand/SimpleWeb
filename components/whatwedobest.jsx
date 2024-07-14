@@ -59,9 +59,7 @@ function SelectionCard() {
         className="mr-4 flex justify-center"
       >
         <Image
-          className={`object-cover ${
-            "hover:opacity-75" // Adjust opacity for hover effect on other images
-          }`}
+          className={`object-cover ${"hover:opacity-75"}`}
           src={selectedImage}
           alt="image"
           width={550}
@@ -101,3 +99,4 @@ function Card1({ data }) {
     </>
   );
 }
+
