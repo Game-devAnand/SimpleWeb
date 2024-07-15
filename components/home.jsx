@@ -1,8 +1,11 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function HomeSection() {
+  const [isshow, setShow] = useState(false);
   return (
     <div className="flex flex-row mb-10">
       <div className="mt-14">
@@ -32,7 +35,7 @@ export default function HomeSection() {
         </p>
         <div className="mt-12 h-10 w-36 flex">
           <div style={{ background: "#FF3147" }}>
-            <Link href="#">
+            <Link href="/contactus">
               <p className="p-2 text-white ">CONTACT US</p>
             </Link>
           </div>
